@@ -3,13 +3,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 :root {
-    --cor0: #025E73;
-    --cor1: #011F26;
-    --cor2: #A5A692;
-    --cor3: #BFB78F;
-    --cor4: #F2A71B;
+    --cor0: #2D3E40;
+    --cor1: #97A6A0;
+    --cor2: #93BFB7;
+    --cor3: #387373;
+    --cor4: #E4F2E7;
 
     --padrao: Arial, Helvetica, sans-serif;
+    --destaque: 'Bebas Neue', cursive;
 }
 
 *{
@@ -17,51 +18,50 @@
     padding: 0px;
 }
 
-body{
-    
-}
 
 header{
-    background-image: linear-gradient(to bottom, var(--cor1), var(--cor0));
-    min-height: 150px;
-    text-align: center;
-    padding-top: 30px;
+    min-height: 100px;
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor1) );
 }
 
 nav{
-    background-color: var(--cor0);
-    margin-top: 74px;
+    background-color: var(--cor1);
     padding: 10px;
-    text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.404);
+    text-align: center;
+    text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.247);
 }
 
 nav > a{
-    color: var(--cor1);
+    color: white;
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
     transition-duration: .5s;
+    font-family: var(--padrao);
 }
 
 nav > a:hover{
     background-color: var(--cor3);
-    color: var(--cor5);
+    color: var(--cor0);
 }
 
-div > h1{
-    text-align: justify;
-    align-items: ;
+body{
+    background-image: url(imagens/pexels-sean-kernerman-9657967.jpg);
+    background-size: 98vh;
+    background-color: #011F26;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-div.container{
-    display: flex;
-    align-items: center;
+main h1{
+    margin-right: 80px;
+    text-align: right;
+    font-family: var(--destaque);
 }
-
-div p{
-    width: 300px;
-    margin: 10px 10px 10px 100px;
-    padding: 10px 10px 10px 10px;
-    
+main h1.arquiteto{
+    margin-right: 163px;
+    margin-top: 80px;
 }
