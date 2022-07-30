@@ -51,7 +51,7 @@ a.externo::after {
 }
 
 body{
-    background-image: url(imagens/pexels-sean-kernerman-9657967.jpg);
+    background-image: url(imagens/pexels-iván-rivero-2739654\ \(1\).jpg);
     background-size: 98vh;
     background-color: var(--cor0);
     background-position: center center;
@@ -62,8 +62,10 @@ body{
 }
 
 main{
+    font-family: var(--padrao);
     min-width: 300px;
     max-width: 1000px;
+    margin-top: 20px;
     margin: auto;
     background-color: white;
     padding: 20px;
@@ -93,7 +95,7 @@ main h2{
     font-size: 1.5em;
     font-family: var(--destaque);
     color: var(--cor3);
-    margin-left: 500px;
+    margin-left: 10px;
 }
 
 main h2.titulo{
@@ -105,12 +107,12 @@ main p {
     text-indent: 5px;
     line-height: 1.2em;
     font-size: 1em;
-    padding-left: 550px;
+    padding-left: 10px;
 }
 
 main ul{
     padding-top: 25px;
-    padding-left: 183px;
+    padding-left: 10;
     list-style-type: ;
     list-style-position: inside;
     columns: 1;
@@ -120,6 +122,17 @@ img.everton{
     float: left;
 }
 
-div.container{
-    
+div.retangulo{
+    margin-top: 30px;
+    display: inline-block;
+    background-color: lightgray;
+    width: 1000px;
+    min-width: 300px;
+    height: 300px;
+}
+
+div#lost{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
