@@ -46,26 +46,39 @@ nav > a:hover{
     color: var(--cor0);
 }
 
+a.externo::after {
+    content:'\00A0\1F517';
+}
+
 body{
     background-image: url(imagens/pexels-sean-kernerman-9657967.jpg);
     background-size: 98vh;
-    background-color: #011F26;
+    background-color: var(--cor0);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: scroll;
+    background-attachment: fixed;
+    font-family: var(--padrao);
 }
 
 main{
+    min-width: 300px;
     max-width: 1000px;
     margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 main h1{
     margin-right: 80px;
     text-align: right;
     font-family: var(--destaque);
+    color: var(--cor0);
+    font-size: 1.8em;
 }
+
 main h1.arquiteto{
     margin-right: 163px;
     margin-top: 80px;
@@ -73,4 +86,40 @@ main h1.arquiteto{
 
 main h1#quem{
     margin-top: 500px;
+    margin-bottom: 30px;
+}
+
+main h2{
+    font-size: 1.5em;
+    font-family: var(--destaque);
+    color: var(--cor3);
+    margin-left: 500px;
+}
+
+main h2.titulo{
+    padding-top: 80px;
+}
+
+main p {
+    text-align: justify;
+    text-indent: 5px;
+    line-height: 1.2em;
+    font-size: 1em;
+    padding-left: 550px;
+}
+
+main ul{
+    padding-top: 25px;
+    padding-left: 183px;
+    list-style-type: ;
+    list-style-position: inside;
+    columns: 1;
+}
+
+img.everton{
+    float: left;
+}
+
+div.container{
+    
 }
