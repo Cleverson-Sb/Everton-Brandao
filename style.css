@@ -65,10 +65,8 @@ main{
     font-family: var(--padrao);
     min-width: 300px;
     max-width: 1000px;
-    margin-top: 20px;
     margin: auto;
     background-color: white;
-    padding: 20px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
@@ -82,12 +80,12 @@ main h1{
 }
 
 main h1.arquiteto{
-    margin-right: 163px;
-    margin-top: 80px;
+    margin-right: 155px;
+    padding-top: 80px;
 }
 
 main h1#quem{
-    margin-top: 500px;
+    margin-top: 400px;
     margin-bottom: 30px;
 }
 
@@ -112,27 +110,25 @@ main p {
 
 main ul{
     padding-top: 25px;
-    padding-left: 10;
-    list-style-type: ;
+    padding-left: 10px;
     list-style-position: inside;
     columns: 1;
 }
 
-img.everton{
-    float: left;
+img{
+    
 }
 
-div.retangulo{
-    margin-top: 30px;
-    display: inline-block;
-    background-color: lightgray;
-    width: 1000px;
-    min-width: 300px;
-    height: 300px;
-}
-
-div#lost{
-    background-size: cover;
+div.divisao{
+    background-color: var(--cor1);
+    background-image: url(imagens/pngegg\ \(4\).png);
+    background-color: var(--cor0);
     background-position: center center;
     background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1000px;
+    min-width: 100px;
+    min-height: 700px;
+    margin: 0px;
+    padding: 0px;
 }
