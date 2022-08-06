@@ -96,7 +96,13 @@ section#projetos{
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-color: var(--cor4);
     color:var(--cor0);
+}
+
+section#projetos > ul{
+    display: flexbox;
+    justify-content: space-around;
+    list-style: none;
 }
