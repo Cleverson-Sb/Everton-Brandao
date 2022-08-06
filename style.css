@@ -58,17 +58,45 @@ section{
     font-family: var(--fonte01);
 }
 
+section > h1{
+    text-align: right;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
 section#inicio{
+    background-image: url(imagens/pngegg\ \(4\).png);
+    background-position: top center;
+    background-size: cover;
+    background-attachment: scroll;
     background-color: var(--cor4);
     color: var(--cor0);
+    padding-bottom: 0px;
 }
 
 section#experiencias{
     background-color: var(--cor0);
     color: var(--cor4);
+    background-image: url(imagens/pexels-iván-rivero-2739654\ \(1\).jpg);
+    background-position: bottom center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
+section#experiencias > p, ul{
+  background-color: rgba(169, 169, 169, 0.24);
+  max-width: 730px;
+}
+
+section#experiencias > ul{
+    list-style-position: inside;
+}
 section#projetos{
+    background-image: url(imagens/pngegg\ \(4\).png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-color: var(--cor4);
     color:var(--cor0);
 }
