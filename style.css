@@ -101,16 +101,17 @@ section#projetos{
     color:var(--cor0);
 }
 
-.conteiner{
-
-}
-
-.conteudo{
-}
-
-#conteudo1{
-}
-
-img{
+section#projetos > table{
     margin: auto;
+    border-collapse: separate;
+}
+
+td{
+    text-align: center;
+    padding: 10px;
+}
+
+th{
+    padding: 34px;
+    border: 1.5px solid black;
 }
