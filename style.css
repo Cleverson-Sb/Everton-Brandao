@@ -76,7 +76,7 @@ section#inicio{
 
 section#experiencias{
     background-color: var(--cor0);
-    color: var(--cor4);
+    color: black;
     background-image: url(imagens/fundo-m.jpg);
     background-position: bottom center;
     background-size: cover;
@@ -84,8 +84,10 @@ section#experiencias{
 }
 
 section#experiencias > p, ul{
-  background-color: rgba(169, 169, 169, 0.24);
-  max-width: 730px;
+    text-align: justify;
+    font-size: 1.2em;
+    background-color: rgba(169, 169, 169, 0.377);
+    max-width: 730px;
 }
 
 section#experiencias > ul{
