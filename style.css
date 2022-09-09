@@ -23,6 +23,17 @@ html, body{
     background-color: var(--cor3);
     font-family: var(--fonte01);
 }
+
+main img{
+    width: 100%;
+}
+
+main img.pequena {
+    max-width: 300px;
+    display: block;
+    margin: auto;
+}
+
 nav{
    
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor1) );
