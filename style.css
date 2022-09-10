@@ -35,7 +35,6 @@ main img.pequena {
 }
 
 nav{
-   
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor1) );
     padding-top: 70px;
     padding-bottom: 10px;
@@ -66,7 +65,7 @@ a.externo::after {
 section{
     padding-top: 20vh;
     padding-bottom: 20vh;
-    padding-left: 30px;
+    padding-left: 10px;
     font-family: var(--fonte01);
 }
 
@@ -112,7 +111,7 @@ section#projetos{
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-color: var(--cor4);
-    color:var(--cor0);
+    color: black;
 }
 
 section#projetos > table{
@@ -122,15 +121,16 @@ section#projetos > table{
 
 td{
     text-align: center;
-    padding: 10px;
+    padding: 10px 10px 10px 0px;
 }
 
 th{
     padding: 34px;
     padding-top: 10px;
 }
-tr{
-    padding-left: 30px;
+
+section#projetos td > h2{
+    text-align: justify;
 }
 
 section#projetos td > p{
