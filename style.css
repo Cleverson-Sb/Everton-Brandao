@@ -40,6 +40,8 @@ nav{
     padding-bottom: 10px;
     text-align: center;
     text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.247);
+    position: fixed;
+    width: 100%;
 }
 
 nav > a, a{
@@ -73,6 +75,9 @@ section > h1{
     text-align: right;
     padding-right: 30px;
     padding-bottom: 30px;
+    font-family: var(--destaque);
+    font-size: 2.5em;
+    color: var(--cor0);
 }
 
 section#inicio{
@@ -81,7 +86,6 @@ section#inicio{
     background-size: cover;
     background-attachment: scroll;
     background-color: var(--cor4);
-    color: var(--cor0);
     padding-bottom: 0px;
 }
 
@@ -104,6 +108,7 @@ section#experiencias > p, ul{
 section#experiencias > ul{
     list-style-position: inside;
 }
+
 section#projetos{
     background-image: url(imagens/pngegg\ \(4\).png);
     background-position: center center;
@@ -121,12 +126,7 @@ section#projetos > table{
 
 td{
     text-align: center;
-    padding: 10px 10px 10px 0px;
-}
-
-th{
-    padding: 34px;
-    padding-top: 10px;
+    padding: 5px 10px 10px 0px;
 }
 
 section#projetos td > h2{
@@ -143,4 +143,10 @@ section#projetos td > p{
 
 section#projetos td > a{
     background-color: #387373;
+}
+
+footer{
+    padding-left: 10px;
+    padding: 10px;
+    text-align: center;
 }
