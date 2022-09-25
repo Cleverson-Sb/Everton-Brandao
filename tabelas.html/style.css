@@ -9,6 +9,7 @@ table{
     max-width: 600px;
     min-width: 250px;
     border-collapse: collapse;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.351);
 }
 
 td,th{
