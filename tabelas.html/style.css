@@ -46,9 +46,10 @@ caption{
     font-weight: lighter;
     padding-bottom: 0px;
 }
-h1{
-    margin-bottom: 2px;
+.tabela{
+    margin-top: 3px;
     font-size: larger;
+    font-weight: bolder;
 }
 p{
     margin: 2px;
