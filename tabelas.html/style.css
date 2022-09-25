@@ -44,5 +44,12 @@ td,th{
 caption{
     background-color: lightgray;
     font-weight: lighter;
-    padding: 5px;
+    padding-bottom: 0px;
+}
+h1{
+    margin-bottom: 2px;
+    font-size: larger;
+}
+p{
+    margin: 2px;
 }
