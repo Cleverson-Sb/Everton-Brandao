@@ -17,6 +17,11 @@ td,th{
     border: 1px solid black;
 }
 
+.tester{
+    background-color: lightgray;
+}
+
+
 #t1{
     position: absolute;
     bottom: 50%;
