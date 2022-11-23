@@ -134,7 +134,6 @@ section#projetos td > h2{
 }
 
 section#projetos td > p{
-    max-width: 450px;
     text-align: justify;
     font-family: var(--fonte01);
     color: black;
